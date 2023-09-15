@@ -7,16 +7,16 @@ public class kjkjij{
         int b=18;
         System.out.println(" ");
         do{
-            System.out.println("i is "+ i +" but is less than 10");
+            System.out.println("this will run as long as i<15");
             i=i+1;
         }while(i<15);
         do{
-            System.out.println("k is "+ k +" but is greater than 5");
+            System.out.println("this will run as long as 10 > k > 5");
             k=k+1;
         }while(k>5&&k<10);
         do{
-            System.out.println("a is "+ a +" but is less than 10");
-            System.out.println("b is "+ b +" but is less than or equal to 20");
+            System.out.println("this will run as long as a < 10");
+            System.out.println("this will run as long as b < 20");
             a=a+1;
             b=b+1;
         }while(a<10&&b<=20);
